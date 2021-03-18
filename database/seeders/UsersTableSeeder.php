@@ -2,7 +2,9 @@
 
 namespace Database\Seeders;
 
+use App\Models\User;
 use Illuminate\Database\Seeder;
+
 
 class UsersTableSeeder extends Seeder
 {
@@ -14,12 +16,10 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        
-
         \DB::table('users')->delete();
-        
+
         \DB::table('users')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => 25,
                 'name' => 'Neville Navarro',
@@ -35,7 +35,7 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2021-03-17 00:17:29',
                 'updated_at' => '2021-03-17 20:16:28',
             ),
-            1 => 
+            1 =>
             array (
                 'id' => 26,
                 'name' => 'Colt Jacobson DVM',
@@ -51,7 +51,7 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2021-03-17 23:33:37',
                 'updated_at' => '2021-03-17 23:33:37',
             ),
-            2 => 
+            2 =>
             array (
                 'id' => 27,
                 'name' => 'Garnet Muller',
@@ -67,7 +67,7 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2021-03-17 23:33:46',
                 'updated_at' => '2021-03-17 23:33:46',
             ),
-            3 => 
+            3 =>
             array (
                 'id' => 28,
                 'name' => 'Elmer Jerde',
@@ -83,7 +83,7 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2021-03-17 23:33:46',
                 'updated_at' => '2021-03-17 23:33:46',
             ),
-            4 => 
+            4 =>
             array (
                 'id' => 29,
                 'name' => 'Dr. Deanna Morar DVM',
@@ -99,7 +99,7 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2021-03-17 23:33:46',
                 'updated_at' => '2021-03-17 23:33:46',
             ),
-            5 => 
+            5 =>
             array (
                 'id' => 30,
                 'name' => 'Mr. Carlo Gutmann DVM',
@@ -115,7 +115,7 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2021-03-17 23:33:46',
                 'updated_at' => '2021-03-17 23:33:46',
             ),
-            6 => 
+            6 =>
             array (
                 'id' => 31,
                 'name' => 'Miss Amie Wintheiser Jr.',
@@ -131,7 +131,7 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2021-03-17 23:33:46',
                 'updated_at' => '2021-03-17 23:33:46',
             ),
-            7 => 
+            7 =>
             array (
                 'id' => 32,
                 'name' => 'Kenna Mante DDS',
@@ -147,7 +147,7 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2021-03-17 23:33:46',
                 'updated_at' => '2021-03-17 23:33:46',
             ),
-            8 => 
+            8 =>
             array (
                 'id' => 33,
                 'name' => 'Ms. Meagan Dach',
@@ -163,7 +163,7 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2021-03-17 23:33:46',
                 'updated_at' => '2021-03-17 23:33:46',
             ),
-            9 => 
+            9 =>
             array (
                 'id' => 34,
                 'name' => 'Michel Baumbach',
@@ -179,7 +179,7 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2021-03-17 23:33:46',
                 'updated_at' => '2021-03-17 23:33:46',
             ),
-            10 => 
+            10 =>
             array (
                 'id' => 35,
                 'name' => 'Itzel Hoppe',
@@ -195,7 +195,7 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2021-03-17 23:33:46',
                 'updated_at' => '2021-03-17 23:33:46',
             ),
-            11 => 
+            11 =>
             array (
                 'id' => 36,
                 'name' => 'Prof. Keara Jakubowski DVM',
@@ -211,7 +211,7 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2021-03-17 23:33:46',
                 'updated_at' => '2021-03-17 23:33:46',
             ),
-            12 => 
+            12 =>
             array (
                 'id' => 37,
                 'name' => 'Mr. Andrew Kunde',
@@ -227,7 +227,7 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2021-03-17 23:33:46',
                 'updated_at' => '2021-03-17 23:33:46',
             ),
-            13 => 
+            13 =>
             array (
                 'id' => 38,
                 'name' => 'Nyasia Schinner',
@@ -243,7 +243,7 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2021-03-17 23:33:46',
                 'updated_at' => '2021-03-17 23:33:46',
             ),
-            14 => 
+            14 =>
             array (
                 'id' => 39,
                 'name' => 'Prof. Jamil Murray',
@@ -259,7 +259,7 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2021-03-17 23:33:46',
                 'updated_at' => '2021-03-17 23:33:46',
             ),
-            15 => 
+            15 =>
             array (
                 'id' => 40,
                 'name' => 'Allie Lesch',
@@ -275,7 +275,7 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2021-03-17 23:33:46',
                 'updated_at' => '2021-03-17 23:33:46',
             ),
-            16 => 
+            16 =>
             array (
                 'id' => 41,
                 'name' => 'Dell Stehr',
@@ -291,7 +291,7 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2021-03-17 23:33:46',
                 'updated_at' => '2021-03-17 23:33:46',
             ),
-            17 => 
+            17 =>
             array (
                 'id' => 42,
                 'name' => 'Kacie Casper',
@@ -307,7 +307,7 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2021-03-17 23:33:46',
                 'updated_at' => '2021-03-17 23:33:46',
             ),
-            18 => 
+            18 =>
             array (
                 'id' => 43,
                 'name' => 'Irving Kuhic',
@@ -323,7 +323,7 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2021-03-17 23:33:46',
                 'updated_at' => '2021-03-17 23:33:46',
             ),
-            19 => 
+            19 =>
             array (
                 'id' => 44,
                 'name' => 'Devan Stamm',
@@ -339,7 +339,7 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2021-03-17 23:33:47',
                 'updated_at' => '2021-03-17 23:33:47',
             ),
-            20 => 
+            20 =>
             array (
                 'id' => 45,
                 'name' => 'Dr. Gregory Adams III',
@@ -355,7 +355,7 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2021-03-17 23:33:47',
                 'updated_at' => '2021-03-17 23:33:47',
             ),
-            21 => 
+            21 =>
             array (
                 'id' => 46,
                 'name' => 'Tobin Hauck V',
@@ -372,7 +372,30 @@ class UsersTableSeeder extends Seeder
                 'updated_at' => '2021-03-17 23:33:47',
             ),
         ));
-        
-        
+
+        $user = User::find(25);
+        $user->assignRole('administrador');
+
+		$user = User::find(26);
+        $user->assignRole('editor');
+
+		$user = User::find(27);
+        $user->assignRole('editor');
+
+		$user = User::find(28);
+        $user->assignRole('maestro');
+
+		$user = User::find(29);
+        $user->assignRole('maestro');
+
+		$user = User::find(30);
+        $user->assignRole('padre');
+
+		$user = User::find(31);
+        $user->assignRole('alumno');
+
+		$user = User::find(32);
+        $user->assignRole('alumno');
+
     }
 }
