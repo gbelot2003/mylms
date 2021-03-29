@@ -1,0 +1,16 @@
+.table {
+    @apply rounded-t-lg m-5 full-width mx-auto bg-gray-200 text-gray-800;
+}
+
+.table thead tr {
+    @apply text-left border-b-2 border-gray-300;
+}
+
+.table th,
+td {
+    @apply px-4 py-3;
+}
+
+.table tbody tr {
+    @apply bg-gray-100 border-b border-gray-200;
+}

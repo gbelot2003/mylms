@@ -32717,6 +32717,41 @@ select {
           animation: bounce 1s infinite;
 }
 
+.table {
+  --tw-bg-opacity: 1;
+  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  margin: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  --tw-text-opacity: 1;
+  color: rgba(31, 41, 55, var(--tw-text-opacity));
+  width: 83.333333%;
+}
+
+.table thead tr {
+  --tw-border-opacity: 1;
+  border-color: rgba(209, 213, 219, var(--tw-border-opacity));
+  border-bottom-width: 2px;
+  text-align: left;
+}
+
+.table th, td {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.table tbody tr {
+  --tw-bg-opacity: 1;
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgba(229, 231, 235, var(--tw-border-opacity));
+  border-bottom-width: 1px;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -192176,4 +192211,3 @@ select {
             animation: bounce 1s infinite;
   }
 }
-
