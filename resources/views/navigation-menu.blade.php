@@ -101,7 +101,7 @@
                             </x-jet-dropdown-link>
 
                             <x-jet-dropdown-link href="{{ route('users.index') }}">
-                                {{ __('Usuarios') }}
+                                {{ __('Users') }}
                             </x-jet-dropdown-link>
 
                             @if (Laravel\Jetstream\Jetstream::hasApiFeatures())

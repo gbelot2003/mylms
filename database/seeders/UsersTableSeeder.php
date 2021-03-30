@@ -22,8 +22,8 @@ class UsersTableSeeder extends Seeder
             0 =>
             array (
                 'id' => 25,
-                'name' => 'Neville Navarro',
-                'email' => 'doqovyqyw@mailinator.com',
+                'name' => 'Gerardo Belot',
+                'email' => 'gbelot2003@hotmail.com',
                 'email_verified_at' => '2021-03-17 00:17:35',
                 'password' => '$2y$10$87LWampFxnvHBZ1b0zuPMOKTpYVjQNe/hGU/QnTq8MiE45oFA9TGG',
                 'two_factor_secret' => NULL,
